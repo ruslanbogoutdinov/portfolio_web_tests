@@ -1,7 +1,7 @@
 # Демо-проект по автоматизации тестирования сайта [GitHub](https://github.com/)
 
 <p align="center">
-  <img src="media/icons/bookcity_logo.png" alt="Jenkins" width="600">
+  <img src="src/test/resources/media/images/GitHub.webp" alt="GitHub" width="600">
 </p>
 
 ##	Содержание
