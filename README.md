@@ -51,8 +51,6 @@ gradle clean test
 
 <code>remoteURL</code> - адрес удаленного сервера, где будут запускаться тесты.
 
-<code>threads</code> - количество потоков для многопоточного запуска (_по умолчанию - <code>5</code>_).
-
 ## Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/bookcity_final/)
 
 #### Главная страница Jenkins
