@@ -1,4 +1,4 @@
-# Демо-проект по автоматизации тестирования сайта GitHub [Книжный город](https://github.com/)
+# Демо-проект по автоматизации тестирования сайта GitHub [GitHub](https://github.com/)
 
 <p align="center">
   <img src="media/icons/bookcity_logo.png" alt="Jenkins" width="600">
