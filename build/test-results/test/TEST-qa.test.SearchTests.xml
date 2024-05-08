@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="qa.test.SearchTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-05-07T11:22:08" hostname="MacBook-Pro-Ruslan.local" time="12.826">
+  <properties/>
+  <testcase name="Открытие нужного репозитория в списке найденных" classname="qa.test.SearchTests" time="4.031"/>
+  <testcase name="Проверка успешного поиска репозитория" classname="qa.test.SearchTests" time="4.213"/>
+  <testcase name="Проверка отображения определенного конрибьютора при наведении мышкой" classname="qa.test.SearchTests" time="4.58"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

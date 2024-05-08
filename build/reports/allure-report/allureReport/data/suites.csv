@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue May 07 16:22:04 UZT 2024","Tue May 07 16:22:08 UZT 2024","3183","","qa.test.MainScreenTests","","qa.test.MainScreenTests","horizontalMenuDropdownTest","Проверка выпадающего меню у горизонтального меню при наведении мышкой",""
+"passed","Tue May 07 16:22:08 UZT 2024","Tue May 07 16:22:12 UZT 2024","4030","","qa.test.SearchTests","","qa.test.SearchTests","openFoundRepositoryTest","Открытие нужного репозитория в списке найденных",""
+"passed","Tue May 07 16:22:16 UZT 2024","Tue May 07 16:22:20 UZT 2024","4579","","qa.test.SearchTests","","qa.test.SearchTests","contributorHoverTest","Проверка отображения определенного конрибьютора при наведении мышкой",""
+"passed","Tue May 07 16:22:00 UZT 2024","Tue May 07 16:22:04 UZT 2024","4347","","qa.test.MainScreenTests","","qa.test.MainScreenTests","openAuthAndRegistrationPagesTest","Проверка на корреткное открытие окон авторизации и регистрации",""
+"passed","Tue May 07 16:22:12 UZT 2024","Tue May 07 16:22:16 UZT 2024","4212","","qa.test.SearchTests","","qa.test.SearchTests","searchRepositoryTest","Проверка успешного поиска репозитория",""
