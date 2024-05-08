@@ -38,7 +38,7 @@ public class MainScreenTests extends TestBase{
     @Story("Проверка перехода по горизонтальному меню для авторизации и регистрации")
     @Owner("ruslanbogoutdinov")
     @Severity(SeverityLevel.CRITICAL)
-    @DisplayName("Проверка на корреткное открытие окон авторизации и регистрации")
+    @DisplayName("Проверка на корректное открытие окон авторизации и регистрации")
     void openAuthAndRegistrationPagesTest(){
         step("Открытие главной страницы сайта", () -> {
             navigationPO.openMainPage();
