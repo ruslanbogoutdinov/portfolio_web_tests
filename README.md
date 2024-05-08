@@ -39,7 +39,6 @@ gradle clean test
 -DbrowserVersion=${browserVersion}
 -DbrowserSize=${browserSize}
 -DremoteUrl=${remoteUrl}
--Dthreads=${THREADS}
 ```
 
 ### Параметры запуска
