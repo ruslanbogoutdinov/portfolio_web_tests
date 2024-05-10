@@ -71,7 +71,7 @@ gradle clean test
 #### Значок Allure Report
 
 <p align="center">
-  <img src="media/screen/jenkins_allure.png" alt="jenkins_allure" width="800">
+  <img src="src/test/resources/media/images/screenshots/AllureButtons.png" alt="jenkins_allure" width="800">
 </p>
 
 Результаты сборки можно посмотреть в Allure отчёте, кликнув на значок <code><strong>*Allure Report*</strong></code>.
