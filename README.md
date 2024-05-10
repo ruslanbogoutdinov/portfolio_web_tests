@@ -59,13 +59,13 @@ gradle clean test
   <img src="src/test/resources/media/images/screenshots/Jenkins.png" alt="Jenkins" width="800">
 </p>
 
-Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Собрать*</strong></code>.
-
 #### Настройка параметров
 
 <p align="center">
-  <img src="media/screen/jenkins_param.png" alt="jenkins_param" width="800">
+  <img src="src/test/resources/media/images/screenshots/Jenkins_build.png" alt="jenkins_param" width="800">
 </p>
+
+Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Build*</strong></code>.
 
 Результаты сборки можно посмотреть в Allure отчёте, кликнув на значок <code><strong>*Allure Report*</strong></code>.
 
