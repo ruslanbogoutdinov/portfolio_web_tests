@@ -65,15 +65,16 @@ gradle clean test
   <img src="src/test/resources/media/images/screenshots/Jenkins_build.png" alt="jenkins_param" width="800">
 </p>
 
-Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Build*</strong></code>.
-
-Результаты сборки можно посмотреть в Allure отчёте, кликнув на значок <code><strong>*Allure Report*</strong></code>.
+Для запуска сборки необходимо открыть страницу с параметрами, нажав кнопку <code><strong>*Build with Parameters*</strong></code>. 
+Далее указать значения параметров и нажать кнопку <code><strong>*Build*</strong></code>.
 
 #### Значок Allure Report
 
 <p align="center">
   <img src="media/screen/jenkins_allure.png" alt="jenkins_allure" width="800">
 </p>
+
+Результаты сборки можно посмотреть в Allure отчёте, кликнув на значок <code><strong>*Allure Report*</strong></code>.
 
 ## Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/bookcity_final/19/allure/)
 
