@@ -1,7 +1,7 @@
 # Демо-проект по автоматизации тестирования сайта [GitHub](https://github.com/)
 
 <p align="center">
-  <img src="src/test/resources/media/images/GitHub.webp" alt="GitHub">
+  <img title="GitHub" src="src/test/resources/media/images/images/GitHub.webp" alt="GitHub">
 </p>
 
 ##	Содержание
@@ -87,13 +87,13 @@ gradle clean test
 #### Тесты
 
 <p align="center">
-  <img src="media/screen/allure-tests.PNG" alt="allure_tests" width="800">
+  <img src="src/test/resources/media/images/screenshots/AllureSuites.png" alt="allure_tests" width="800">
 </p>
 
 #### Графики
 
 <p align="center">
-  <img src="media/screen/allure_graphs.PNG" alt="allure_graphs" width="800">
+  <img src="src/test/resources/media/images/screenshots/AllureGraphs.png" alt="allure_graphs" width="800">
 </p>
 
 ## Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/18399)
