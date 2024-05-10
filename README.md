@@ -71,7 +71,7 @@ gradle clean test
 #### Значок Allure Report
 
 <p align="center">
-  <img src="src/test/resources/media/images/screenshots/AllureButtons.png" alt="jenkins_allure" width="800">
+  <img title="Allure buttons in Jenkins" src="src/test/resources/media/images/screenshots/AllureButtons.png" alt="Allure buttons in Jenkins" width="800">
 </p>
 
 Результаты сборки можно посмотреть в Allure отчёте, кликнув на значок <code><strong>*Allure Report*</strong></code>.
@@ -81,19 +81,19 @@ gradle clean test
 #### Главная страница Allure Report
 
 <p align="center">
-  <img src="src/test/resources/media/images/screenshots/Allure.png" alt="allure_main" width="800">
+  <img title="Allure Report overview" src="src/test/resources/media/images/screenshots/AllureReportMain.png" alt="Allure Report overview" width="800">
 </p>
 
 #### Тесты
 
 <p align="center">
-  <img src="src/test/resources/media/images/screenshots/AllureSuites.png" alt="allure_tests" width="800">
+  <img title="Allure Report tests" src="src/test/resources/media/images/screenshots/AllureTests.png" alt="Allure Report tests" width="800">
 </p>
 
 #### Графики
 
 <p align="center">
-  <img src="src/test/resources/media/images/screenshots/AllureGraphs.png" alt="allure_graphs" width="800">
+  <img title="Allure Report graphs" src="src/test/resources/media/images/screenshots/AllureGraphs.png" alt="Allure Report graphs" width="800">
 </p>
 
 ## Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/18399)
