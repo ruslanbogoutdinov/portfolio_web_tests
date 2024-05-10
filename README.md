@@ -81,7 +81,7 @@ gradle clean test
 #### Главная страница Allure Report
 
 <p align="center">
-  <img src="media/screen/allure_main.PNG" alt="allure_main" width="800">
+  <img src="src/test/resources/media/images/screenshots/Allure.png" alt="allure_main" width="800">
 </p>
 
 #### Тесты

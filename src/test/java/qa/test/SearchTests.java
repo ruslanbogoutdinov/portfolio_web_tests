@@ -62,7 +62,7 @@ public class SearchTests extends TestBase{
     @Story("Поиск репозитория")
     @Owner("ruslanbogoutdinov")
     @Severity(SeverityLevel.CRITICAL)
-    @DisplayName("Проверка отображения определенного конрибьютора при наведении мышкой")
+    @DisplayName("Проверка отображения определенного контрибьютора при наведении мышкой")
     void contributorHoverTest(){
         step("Открываем страницу с репозиторием 'Selenide'", () -> {
             searchPO.openSelenideRepoPage();
