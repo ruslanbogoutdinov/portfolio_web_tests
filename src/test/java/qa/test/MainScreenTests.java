@@ -1,6 +1,7 @@
 package qa.test;
 
 import io.qameta.allure.*;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import qa.test.annotations.Layer;
@@ -11,6 +12,11 @@ import static io.qameta.allure.Allure.step;
 @Layer("web tests")
 @Feature("Функицонал начальной страницы сайта")
 public class MainScreenTests extends TestBase{
+    @BeforeEach
+    void beforeEach(){
+        setUp();
+    }
+
     @Test
     @Story("Проверка горизонтального меню на главной странице сайта")
     @Owner("ruslanbogoutdinov")

@@ -5,15 +5,16 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 
 import io.qameta.allure.selenide.AllureSelenide;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 
+import org.openqa.selenium.remote.DesiredCapabilities;
+import qa.config.WebConfig;
 import qa.helper.Attach;
 import qa.pageobjects.MainScreenPO;
 import qa.pageobjects.NavigationPO;
 import qa.pageobjects.SearchPO;
-import qa.pageobjects.components.UniversalActionsComponent;
 
 import java.util.Map;
 
@@ -23,21 +24,29 @@ public class TestBase {
     NavigationPO navigationPO = new NavigationPO();
     MainScreenPO mainScreenPO = new MainScreenPO();
     SearchPO searchPO = new SearchPO();
-    @BeforeAll
-    static void beforeAll(){
-        Configuration.browserSize = "1920x1080";
-        Configuration.baseUrl = "https://github.com/";
 
-//        Configuration.browser = "chrome";
-//        Configuration.browserVersion = "124.0";
-//        Configuration.remote = "http://localhost:4444/wd/hub";
-//
-//        DesiredCapabilities capabilities = new DesiredCapabilities();
-//        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
-//                "enableVNC", true
-//        ));
-//
-//        Configuration.browserCapabilities = capabilities;
+    private final WebConfig config;
+    public TestBase(){
+        this.config = ConfigFactory.create(WebConfig.class, System.getProperties());
+    }
+
+    public TestBase setUp(){
+        Configuration.browser = config.getBrowser();
+        Configuration.browserVersion = config.getBrowserVersion();
+        Configuration.browserSize = config.getBrowserSize();
+
+        if(config.isRemote()){
+            Configuration.remote = "https://"+config.getUsername()+":"+config.getPassword()+"@"+System.getProperty("selenoidUrl", config.getRemoteUrl());
+
+            DesiredCapabilities capabilities = new DesiredCapabilities();
+            capabilities.setCapability("selenoid:options", Map.<String, Object>of(
+                    "enableVNC", true
+            ));
+
+            Configuration.browserCapabilities = capabilities;
+        }
+
+        return this;
     }
 
     @BeforeEach

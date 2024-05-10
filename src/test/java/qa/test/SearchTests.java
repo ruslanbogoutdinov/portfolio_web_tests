@@ -1,7 +1,9 @@
 package qa.test;
 
 import io.qameta.allure.*;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import qa.test.annotations.Layer;
 
@@ -10,6 +12,11 @@ import static io.qameta.allure.Allure.step;
 @Layer("web tests")
 @Feature("Функицонал поиска репозитория")
 public class SearchTests extends TestBase{
+    @BeforeEach
+    void beforeEach(){
+        setUp();
+    }
+
     private static final String repo = "Selenide";
 
     @Test
@@ -38,7 +45,8 @@ public class SearchTests extends TestBase{
     @DisplayName("Открытие нужного репозитория в списке найденных")
     void openFoundRepositoryTest(){
         step("Открываем нужную страницу с найденными репозиторияеми", () -> {
-            searchPO.openFoundReposListByNeededQuery(repo);
+            navigationPO.openMainPage();
+            searchPO.searchRepo(repo);
         });
 
         step("Открываем нужный репозиторий в списке найденных", () -> {

@@ -34,12 +34,6 @@ public class SearchPO {
         return this;
     }
 
-    public SearchPO openFoundReposListByNeededQuery(String repo){
-        open("/search?q="+repo+"&type=repositories");
-
-        return this;
-    }
-
     public SearchPO openFirstRepoInFoundList(){
         repoItemInFoundList.first().$("a").click();
 
