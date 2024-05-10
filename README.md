@@ -62,7 +62,7 @@ gradle clean test
 #### Настройка параметров
 
 <p align="center">
-  <img src="src/test/resources/media/images/screenshots/Jenkins_build.png" alt="jenkins_param" width="800">
+  <img title="Jenkins parameters" src="src/test/resources/media/images/screenshots/Jenkins_build.png" alt="Jenkins parameters" width="800">
 </p>
 
 Для запуска сборки необходимо открыть страницу с параметрами, нажав кнопку <code><strong>*Build with Parameters*</strong></code>. 
