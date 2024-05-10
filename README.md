@@ -51,12 +51,12 @@ gradle clean test
 
 <code>remoteURL</code> - адрес удаленного сервера, где будут запускаться тесты.
 
-## Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/bookcity_final/)
+## Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/portfolio_web_tests/)
 
 #### Главная страница Jenkins
 
 <p align="center">
-  <img src="media/screen/jenkins_mainpage.PNG" alt="Jenkins" width="800">
+  <img src="src/test/resources/media/images/screenshots/Jenkins.png" alt="Jenkins" width="800">
 </p>
 
 Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Собрать*</strong></code>.
