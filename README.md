@@ -74,7 +74,7 @@ gradle clean test
 </p>
 
 > Для запуска сборки необходимо открыть страницу с параметрами, нажав кнопку <code><strong>*Build with Parameters*</strong></code>. 
-> Далее указать значения параметров и нажать кнопку <strong>*Build*</strong>.
+> Далее указать значения параметров и нажать кнопку <code><strong>*Build*</strong></code>.
 
 <a id="allure_report_and_allure_testops"></a>
 #### Значки Allure Report и Allure TestOps
