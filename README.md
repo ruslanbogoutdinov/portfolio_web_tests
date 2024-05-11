@@ -82,9 +82,6 @@ gradle clean test
 
 <p align="center">
   <img title="Allure Report overview" src="src/test/resources/media/screenshots/AllureReportMain.png" alt="Allure Report overview" width="800">
-
-> Ссылка на отчеты выше может не работать. В этом случае, чтобы увидеть свежую информацию о прогоне тестов,
-> стоит открыть отчет последнего тестового прогона вручную, как показано в разделе <a href="#allure_report_and_allure_testops">Значки Allure Report и Allure TestOps</a>.
 </p>
 
 #### Тесты
@@ -101,7 +98,7 @@ gradle clean test
 
 ## <img src="src/test/resources/media/logos/AllureTestOps.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/38844)
 
-В <code><strong>*Allure TestOps*</strong></code> есть возможность наблюдать за выполнением тестов в реальном времени.
+> В <strong>*Allure TestOps*</strong> есть возможность наблюдать за выполнением тестов в реальном времени.
 
 #### Ход выполнения теста
 
