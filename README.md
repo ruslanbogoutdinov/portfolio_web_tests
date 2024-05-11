@@ -1,7 +1,7 @@
 # Демо-проект по автоматизации тестирования сайта [GitHub](https://github.com/)
 
 <p align="center">
-  <img title="GitHub" src="src/test/resources/media/images/images/GitHub.webp" alt="GitHub">
+  <img title="GitHub" src="src/test/resources/media/images/GitHub.webp" alt="GitHub">
 </p>
 
 ##	Содержание
