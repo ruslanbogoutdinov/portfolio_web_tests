@@ -55,13 +55,13 @@ gradle clean test
 #### Главная страница Jenkins
 
 <p align="center">
-  <img title="Jenkins" src="resources/media/screenshots/Jenkins.png" alt="Jenkins" width="800">
+  <img title="Jenkins" src="src/test/resources/media/screenshots/Jenkins.png" alt="Jenkins" width="800">
 </p>
 
 #### Настройка параметров
 
 <p align="center">
-  <img title="Jenkins parameters" src="src/test/resources/media/images/screenshots/Jenkins_build.png" alt="Jenkins parameters" width="800">
+  <img title="Jenkins parameters" src="src/test/resources/media/screenshots/Jenkins_build.png" alt="Jenkins parameters" width="800">
 </p>
 
 Для запуска сборки необходимо открыть страницу с параметрами, нажав кнопку <code><strong>*Build with Parameters*</strong></code>. 
@@ -70,7 +70,7 @@ gradle clean test
 #### Значок Allure Report
 
 <p align="center">
-  <img title="Allure buttons in Jenkins" src="src/test/resources/media/images/screenshots/AllureButtons.png" alt="Allure buttons in Jenkins" width="800">
+  <img title="Allure buttons in Jenkins" src="src/test/resources/media/screenshots/AllureButtons.png" alt="Allure buttons in Jenkins" width="800">
 </p>
 
 Результаты сборки можно посмотреть в Allure отчёте, кликнув на значок <code><strong>*Allure Report*</strong></code>.
@@ -80,19 +80,19 @@ gradle clean test
 #### Главная страница Allure Report
 
 <p align="center">
-  <img title="Allure Report overview" src="src/test/resources/media/images/screenshots/AllureReportMain.png" alt="Allure Report overview" width="800">
+  <img title="Allure Report overview" src="src/test/resources/media/screenshots/AllureReportMain.png" alt="Allure Report overview" width="800">
 </p>
 
 #### Тесты
 
 <p align="center">
-  <img title="Allure Report tests" src="src/test/resources/media/images/screenshots/AllureTests.png" alt="Allure Report tests" width="800">
+  <img title="Allure Report tests" src="src/test/resources/media/screenshots/AllureTests.png" alt="Allure Report tests" width="800">
 </p>
 
 #### Графики
 
 <p align="center">
-  <img title="Allure Report graphs" src="src/test/resources/media/images/screenshots/AllureGraphs.png" alt="Allure Report graphs" width="800">
+  <img title="Allure Report graphs" src="src/test/resources/media/screenshots/AllureGraphs.png" alt="Allure Report graphs" width="800">
 </p>
 
 ## <img src="src/test/resources/media/logos/AllureTestOps.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/38844)
@@ -102,19 +102,19 @@ gradle clean test
 #### Ход выполнения теста
 
 <p align="center">
-  <img title="Allure TestOps launch" src="src/test/resources/media/images/screenshots/AllureTestOpsLaunch.png" alt="Allure TestOps launch" width="800">
+  <img title="Allure TestOps launch" src="src/test/resources/media/screenshots/AllureTestOpsLaunch.png" alt="Allure TestOps launch" width="800">
 </p>
 
 #### Тест-кейсы
 
 <p align="center">
-  <img title="Allure TestOps tests" src="src/test/resources/media/images/screenshots/AllureTestOpsTests.png" alt="Allure TestOps tests" width="800">
+  <img title="Allure TestOps tests" src="src/test/resources/media/screenshots/AllureTestOpsTests.png" alt="Allure TestOps tests" width="800">
 </p>
 
 #### Дашборды
 
 <p align="center">
-  <img title="Allure TestOps dashboards" src="src/test/resources/media/images/screenshots/AllureTestOpsDashboards.png" alt="Allure TestOps dashboards" width="800">
+  <img title="Allure TestOps dashboards" src="src/test/resources/media/screenshots/AllureTestOpsDashboards.png" alt="Allure TestOps dashboards" width="800">
 </p>
 
 ## <img src="src/test/resources/media/logos/Telegram.svg" width="25" height="25"/></a> Telegram уведомление
@@ -122,7 +122,7 @@ gradle clean test
 #### Оповещение о результатах сборки
 
 <p>
-  <img title="Telegram notification" src="src/test/resources/media/images/screenshots/Telegram.png" alt="Telegram notification" width="500">
+  <img title="Telegram notification" src="src/test/resources/media/screenshots/Telegram.png" alt="Telegram notification" width="500">
 </p>
 
 ## Пример запуска теста
