@@ -23,7 +23,6 @@
 - [x] Проверка на корректное открытие окон авторизации и регистрации
 
 ## Запуск тестов из терминала
-
 ### Локальный запуск тестов
 
 ```bash
@@ -76,7 +75,7 @@ gradle clean test
 
 Результаты сборки можно посмотреть в Allure отчёте, кликнув на значок <code><strong>*Allure Report*</strong></code>.
 
-## Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/bookcity_final/19/allure/)
+## Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/portfolio_web_tests/allure/)
 
 #### Главная страница Allure Report
 
@@ -123,7 +122,7 @@ gradle clean test
 #### Оповещение о результатах сборки
 
 <p align="center">
-  <img src="media/screen/telegram.PNG" alt="telegram" width="800">
+  <img src="src/test/resources/media/images/screenshots/Telegram.png" alt="telegram" width="500">
 </p>
 
 ## Пример запуска теста в Selenoid
