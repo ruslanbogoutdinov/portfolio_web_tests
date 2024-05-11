@@ -12,7 +12,7 @@
 
 * <a href="#jenkins">Запуск тестов в Jenkins</a>
 
-* <a href="#allure">Отчет о результатах тестирования в Allure Report</a>
+* <a href="#allure">Отчет в Allure Report</a>
 
 * <a href="#allure-testops">Интеграция с Allure TestOps</a>
 
@@ -87,7 +87,7 @@ gradle clean test
 > на просмотр страниц с тестовой документацией и отчетов.
 
 <a id="allure"></a>
-## <img src="src/test/resources/media/logos/AllureReport.svg" alt="Allure Report" width="25" height="25"/></a> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/portfolio_web_tests/allure/)
+## <img src="src/test/resources/media/logos/AllureReport.svg" alt="Allure Report" width="25" height="25"/></a> Отчет в [Allure Report](https://jenkins.autotests.cloud/job/portfolio_web_tests/allure/)
 
 #### Главная страница Allure Report
 
