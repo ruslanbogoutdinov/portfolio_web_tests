@@ -6,14 +6,21 @@
 
 ##	Содержание
 
-- [Реализованныe проверки](#реализованные-проверки)
-- [Запуск тестов из терминала](#запуск-тестов-из-терминала)
-- [Запуск тестов в Jenkins](#запуск-тестов-в-jenkins)
-- [Отчет о результатах тестирования в Allure Report](#отчет-о-результатах-тестирования-в-Allure-report)
-- [Интеграция с Allure TestOps](#интеграция-с-allure-testops)
-- [Уведомления в Telegram с использованием бота](#уведомления-в-telegram-с-использованием-бота)
-- [Пример запуска теста в Selenoid](#пример-запуска-теста-в-selenoid)
+* <a href="#cases">Реализованные проверки</a>
 
+* <a href="#console">Запуск тестов из терминала</a>
+
+* <a href="#jenkins">Запуск тестов в Jenkins</a>
+
+* <a href="#allure">Отчеты в Allure Report</a>
+
+* <a href="#allure-testops">Интеграция с Allure TestOps</a>
+
+* <a href="#telegram">Telegram уведомление</a>
+
+* <a href="#video">Видео пример прогона автотеста</a>
+
+<a id="cases"></a>
 ## Реализованные проверки
 
 - [x] Проверка успешного поиска репозитория
@@ -22,6 +29,7 @@
 - [x] Проверка выпадающего меню у горизонтального меню при наведении мышкой
 - [x] Проверка на корректное открытие окон авторизации и регистрации
 
+<a id="console"></a>
 ## Запуск тестов из терминала
 ### Локальный запуск тестов
 
@@ -50,6 +58,7 @@ gradle clean test
 
 <code>remoteURL</code> - адрес удаленного сервера, где будут запускаться тесты.
 
+<a id="jenkins"></a>
 ## <img src="src/test/resources/media/logos/Jenkins.svg" alt="Jenkins" width="25" height="25"/> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/portfolio_web_tests/)
 
 #### Главная страница Jenkins
@@ -67,6 +76,7 @@ gradle clean test
 > Для запуска сборки необходимо открыть страницу с параметрами, нажав кнопку <code><strong>*Build with Parameters*</strong></code>. 
 > Далее указать значения параметров и нажать кнопку <strong>*Build*</strong>.
 
+<a id="allure_report_and_allure_testops"></a>
 #### Значки Allure Report и Allure TestOps
 
 <p align="center">
@@ -76,6 +86,7 @@ gradle clean test
 > Клик по иконкам <strong>*Allure TestOps*</strong> и <strong>*Allure Report*</strong> позволяет перейти
 > на просмотр страниц с тестовой документацией и отчетов.
 
+<a id="allure"></a>
 ## <img src="src/test/resources/media/logos/AllureReport.svg" alt="Allure Report" width="25" height="25"/></a> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/portfolio_web_tests/allure/)
 
 #### Главная страница Allure Report
@@ -96,6 +107,7 @@ gradle clean test
   <img title="Allure Report graphs" src="src/test/resources/media/screenshots/AllureGraphs.png" alt="Allure Report graphs" width="800">
 </p>
 
+<a id="allure-testops"></a>
 ## <img src="src/test/resources/media/logos/AllureTestOps.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/38844)
 
 > В <strong>*Allure TestOps*</strong> есть возможность наблюдать за выполнением тестов в реальном времени.
@@ -118,6 +130,7 @@ gradle clean test
   <img title="Allure TestOps dashboards" src="src/test/resources/media/screenshots/AllureTestOpsDashboards.png" alt="Allure TestOps dashboards" width="800">
 </p>
 
+<a id="telegram"></a>
 ## <img src="src/test/resources/media/logos/Telegram.svg" width="25" height="25"/></a> Telegram уведомление
 
 #### Оповещение о результатах сборки
@@ -126,6 +139,7 @@ gradle clean test
   <img title="Telegram notification" src="src/test/resources/media/screenshots/Telegram.png" alt="Telegram notification" width="500">
 </p>
 
+<a id="video"></a>
 ## Пример запуска теста
 
 К каждому тесту в отчете прилагается видео.
