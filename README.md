@@ -50,7 +50,7 @@ gradle clean test
 
 <code>remoteURL</code> - адрес удаленного сервера, где будут запускаться тесты.
 
-## Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/portfolio_web_tests/)
+## <img src="src/test/resources/media/logos/Jenkins.svg" alt="Jenkins" width="25" height="25"/> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/portfolio_web_tests/)
 
 #### Главная страница Jenkins
 
@@ -75,7 +75,7 @@ gradle clean test
 
 Результаты сборки можно посмотреть в Allure отчёте, кликнув на значок <code><strong>*Allure Report*</strong></code>.
 
-## Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/portfolio_web_tests/allure/)
+## <img src="src/test/resources/media/logos/AllureReport.svg" alt="Allure Report" width="25" height="25"/></a> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/portfolio_web_tests/allure/)
 
 #### Главная страница Allure Report
 
@@ -95,34 +95,34 @@ gradle clean test
   <img title="Allure Report graphs" src="src/test/resources/media/images/screenshots/AllureGraphs.png" alt="Allure Report graphs" width="800">
 </p>
 
-## Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/38844)
+## <img src="src/test/resources/media/logos/AllureTestOps.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/38844)
 
 В <code><strong>*Allure TestOps*</strong></code> есть возможность наблюдать за выполнением тестов в реальном времени.
 
 #### Ход выполнения теста
 
 <p align="center">
-  <img src="src/test/resources/media/images/screenshots/AllureTestOpsLaunch.png" alt="testops_launches" width="800">
+  <img title="Allure TestOps launch" src="src/test/resources/media/images/screenshots/AllureTestOpsLaunch.png" alt="Allure TestOps launch" width="800">
 </p>
 
 #### Тест-кейсы
 
 <p align="center">
-  <img src="src/test/resources/media/images/screenshots/AllureTestOpsTests.png" alt="testops_tests" width="800">
+  <img title="Allure TestOps tests" src="src/test/resources/media/images/screenshots/AllureTestOpsTests.png" alt="Allure TestOps tests" width="800">
 </p>
 
 #### Дашборды
 
 <p align="center">
-  <img src="src/test/resources/media/images/screenshots/AllureTestOpsDashboards.png" alt="dashboards" width="800">
+  <img title="Allure TestOps dashboards" src="src/test/resources/media/images/screenshots/AllureTestOpsDashboards.png" alt="Allure TestOps dashboards" width="800">
 </p>
 
-## Уведомления в Telegram с использованием бота
+## <img src="src/test/resources/media/logos/Telegram.svg" width="25" height="25"/></a> Telegram уведомление
 
 #### Оповещение о результатах сборки
 
 <p>
-  <img src="src/test/resources/media/images/screenshots/Telegram.png" alt="telegram" width="500">
+  <img title="Telegram notification" src="src/test/resources/media/images/screenshots/Telegram.png" alt="Telegram notification" width="500">
 </p>
 
 ## Пример запуска теста
