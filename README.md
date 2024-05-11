@@ -64,7 +64,7 @@ gradle clean test
 #### Главная страница Jenkins
 
 <p align="center">
-  <img title="Jenkins" src="src/test/resources/media/screenshots/Jenkins.png" alt="Jenkins">
+  <img title="Jenkins" src="src/test/resources/media/screenshots/Jenkins.png" alt="Jenkins" width="800">
 </p>
 
 #### Настройка параметров
