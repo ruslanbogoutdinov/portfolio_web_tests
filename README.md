@@ -12,7 +12,7 @@
 
 * <a href="#jenkins">Запуск тестов в Jenkins</a>
 
-* <a href="#allure">Отчеты в Allure Report</a>
+* <a href="#allure">Отчет о результатах тестирования в Allure Report</a>
 
 * <a href="#allure-testops">Интеграция с Allure TestOps</a>
 
