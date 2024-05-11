@@ -64,8 +64,8 @@ gradle clean test
   <img title="Jenkins parameters" src="src/test/resources/media/screenshots/Jenkins_build.png" alt="Jenkins parameters" width="800">
 </p>
 
-Для запуска сборки необходимо открыть страницу с параметрами, нажав кнопку <code><strong>*Build with Parameters*</strong></code>. 
-Далее указать значения параметров и нажать кнопку <code><strong>*Build*</strong></code>.
+> Для запуска сборки необходимо открыть страницу с параметрами, нажав кнопку <code><strong>*Build with Parameters*</strong></code>. 
+> Далее указать значения параметров и нажать кнопку <code><strong>*Build*</strong></code>.
 
 #### Значок Allure Report
 
