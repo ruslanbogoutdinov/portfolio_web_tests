@@ -65,13 +65,16 @@ gradle clean test
 </p>
 
 > Для запуска сборки необходимо открыть страницу с параметрами, нажав кнопку <code><strong>*Build with Parameters*</strong></code>. 
-> Далее указать значения параметров и нажать кнопку <code><strong>*Build*</strong></code>.
+> Далее указать значения параметров и нажать кнопку <strong>*Build*</strong>.
 
-#### Значок Allure Report
+#### Значки Allure Report и Allure TestOps
 
 <p align="center">
   <img title="Allure buttons in Jenkins" src="src/test/resources/media/screenshots/AllureButtons.png" alt="Allure buttons in Jenkins" width="800">
 </p>
+
+> Клик по иконкам <strong>*Allure TestOps*</strong> и <strong>*Allure Report*</strong> позволяет перейти
+> на просмотр страниц с тестовой документацией и отчетов.
 
 Результаты сборки можно посмотреть в Allure отчёте, кликнув на значок <code><strong>*Allure Report*</strong></code>.
 
