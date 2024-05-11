@@ -76,14 +76,15 @@ gradle clean test
 > Клик по иконкам <strong>*Allure TestOps*</strong> и <strong>*Allure Report*</strong> позволяет перейти
 > на просмотр страниц с тестовой документацией и отчетов.
 
-Результаты сборки можно посмотреть в Allure отчёте, кликнув на значок <code><strong>*Allure Report*</strong></code>.
-
 ## <img src="src/test/resources/media/logos/AllureReport.svg" alt="Allure Report" width="25" height="25"/></a> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/portfolio_web_tests/allure/)
 
 #### Главная страница Allure Report
 
 <p align="center">
   <img title="Allure Report overview" src="src/test/resources/media/screenshots/AllureReportMain.png" alt="Allure Report overview" width="800">
+
+> Ссылка на отчеты выше может не работать. В этом случае, чтобы увидеть свежую информацию о прогоне тестов,
+> стоит открыть отчет последнего тестового прогона вручную, как показано в разделе <a href="#allure_report_and_allure_testops">Значки Allure Report и Allure TestOps</a>.
 </p>
 
 #### Тесты
