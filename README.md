@@ -64,13 +64,13 @@ gradle clean test
 #### Главная страница Jenkins
 
 <p align="center">
-  <img title="Jenkins" src="src/test/resources/media/screenshots/Jenkins.png" alt="Jenkins" width="800">
+  <img title="Jenkins" src="src/test/resources/media/screenshots/Jenkins.png" alt="Jenkins">
 </p>
 
 #### Настройка параметров
 
 <p align="center">
-  <img title="Jenkins parameters" src="src/test/resources/media/screenshots/Jenkins_build.png" alt="Jenkins parameters" width="800">
+  <img title="Jenkins parameters" src="src/test/resources/media/screenshots/Jenkins_build.png" alt="Jenkins parameters">
 </p>
 
 > Для запуска сборки необходимо открыть страницу с параметрами, нажав кнопку <code><strong>*Build with Parameters*</strong></code>. 
@@ -80,7 +80,7 @@ gradle clean test
 #### Значки Allure Report и Allure TestOps
 
 <p align="center">
-  <img title="Allure buttons in Jenkins" src="src/test/resources/media/screenshots/AllureButtons.png" alt="Allure buttons in Jenkins" width="800">
+  <img title="Allure buttons in Jenkins" src="src/test/resources/media/screenshots/AllureButtons.png" alt="Allure buttons in Jenkins">
 </p>
 
 > Клик по иконкам <strong>*Allure TestOps*</strong> и <strong>*Allure Report*</strong> позволяет перейти
@@ -92,19 +92,19 @@ gradle clean test
 #### Главная страница Allure Report
 
 <p align="center">
-  <img title="Allure Report overview" src="src/test/resources/media/screenshots/AllureReportMain.png" alt="Allure Report overview" width="800">
+  <img title="Allure Report overview" src="src/test/resources/media/screenshots/AllureReportMain.png" alt="Allure Report overview">
 </p>
 
 #### Тесты
 
 <p align="center">
-  <img title="Allure Report tests" src="src/test/resources/media/screenshots/AllureTests.png" alt="Allure Report tests" width="800">
+  <img title="Allure Report tests" src="src/test/resources/media/screenshots/AllureTests.png" alt="Allure Report tests">
 </p>
 
 #### Графики
 
 <p align="center">
-  <img title="Allure Report graphs" src="src/test/resources/media/screenshots/AllureGraphs.png" alt="Allure Report graphs" width="800">
+  <img title="Allure Report graphs" src="src/test/resources/media/screenshots/AllureGraphs.png" alt="Allure Report graphs">
 </p>
 
 <a id="allure-testops"></a>
@@ -115,19 +115,19 @@ gradle clean test
 #### Ход выполнения теста
 
 <p align="center">
-  <img title="Allure TestOps launch" src="src/test/resources/media/screenshots/AllureTestOpsLaunch.png" alt="Allure TestOps launch" width="800">
+  <img title="Allure TestOps launch" src="src/test/resources/media/screenshots/AllureTestOpsLaunch.png" alt="Allure TestOps launch">
 </p>
 
 #### Тест-кейсы
 
 <p align="center">
-  <img title="Allure TestOps tests" src="src/test/resources/media/screenshots/AllureTestOpsTests.png" alt="Allure TestOps tests" width="800">
+  <img title="Allure TestOps tests" src="src/test/resources/media/screenshots/AllureTestOpsTests.png" alt="Allure TestOps tests">
 </p>
 
 #### Дашборды
 
 <p align="center">
-  <img title="Allure TestOps dashboards" src="src/test/resources/media/screenshots/AllureTestOpsDashboards.png" alt="Allure TestOps dashboards" width="800">
+  <img title="Allure TestOps dashboards" src="src/test/resources/media/screenshots/AllureTestOpsDashboards.png" alt="Allure TestOps dashboards">
 </p>
 
 <a id="telegram"></a>
