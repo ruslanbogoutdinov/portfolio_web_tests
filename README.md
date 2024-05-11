@@ -96,34 +96,26 @@ gradle clean test
   <img title="Allure Report graphs" src="src/test/resources/media/images/screenshots/AllureGraphs.png" alt="Allure Report graphs" width="800">
 </p>
 
-## Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/18399)
+## Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/38844)
 
 В <code><strong>*Allure TestOps*</strong></code> есть возможность наблюдать за выполнением тестов в реальном времени.
 
 #### Ход выполнения теста
 
 <p align="center">
-  <img src="media/screen/testops_launches.png" alt="testops_launches" width="800">
+  <img src="src/test/resources/media/images/screenshots/AllureTestOpsLaunch.png" alt="testops_launches" width="800">
 </p>
 
 #### Тест-кейсы
 
 <p align="center">
-  <img src="media/screen/testops_tests.PNG" alt="testops_tests" width="800">
+  <img src="src/test/resources/media/images/screenshots/AllureTestOpsTests.png" alt="testops_tests" width="800">
 </p>
 
 #### Дашборды
 
 <p align="center">
-  <img src="media/screen/dashboards.PNG" alt="dashboards" width="800">
-</p>
-
-## Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-501)
-
-#### Задача в Jira
-
-<p align="center">
-  <img src="media/screen/jira.PNG" alt="jira" width="800">
+  <img src="src/test/resources/media/images/screenshots/AllureTestOpsDashboards.png" alt="dashboards" width="800">
 </p>
 
 ## Уведомления в Telegram с использованием бота
