@@ -121,11 +121,11 @@ gradle clean test
 
 #### Оповещение о результатах сборки
 
-<p align="center">
+<p>
   <img src="src/test/resources/media/images/screenshots/Telegram.png" alt="telegram" width="500">
 </p>
 
-## Пример запуска теста в Selenoid
+## Пример запуска теста
 
 К каждому тесту в отчете прилагается видео.
 
