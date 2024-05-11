@@ -83,7 +83,7 @@ gradle clean test
   <img title="Allure buttons in Jenkins" src="src/test/resources/media/screenshots/AllureButtons.png" alt="Allure buttons in Jenkins">
 </p>
 
-> Клик по иконкам <strong>*Allure TestOps*</strong> и <strong>*Allure Report*</strong> позволяет перейти
+> Клик по иконкам <code><strong>*Allure TestOps*</strong></code> и <code><strong>*Allure Report*</strong></code> позволяет перейти
 > на просмотр страниц с тестовой документацией и отчетов.
 
 <a id="allure"></a>
@@ -110,7 +110,7 @@ gradle clean test
 <a id="allure-testops"></a>
 ## <img src="src/test/resources/media/logos/AllureTestOps.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/38844)
 
-> В <strong>*Allure TestOps*</strong> есть возможность наблюдать за выполнением тестов в реальном времени.
+> В <code><strong>*Allure TestOps*</strong></code> есть возможность наблюдать за выполнением тестов в реальном времени.
 
 #### Ход выполнения теста
 
