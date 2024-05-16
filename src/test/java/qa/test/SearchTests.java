@@ -9,7 +9,7 @@ import qa.test.annotations.Layer;
 import static io.qameta.allure.Allure.step;
 
 @Layer("web tests")
-@Feature("Функицонал поиска репозитория")
+@Feature("Функционал поиска репозитория")
 public class SearchTests extends TestBase{
     @BeforeEach
     void beforeEach(){
