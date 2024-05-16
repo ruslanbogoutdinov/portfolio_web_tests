@@ -17,3 +17,6 @@ build/
 
 ### Allure ###
 allure-report
+
+### MacOs files ###
+.DS_Store
