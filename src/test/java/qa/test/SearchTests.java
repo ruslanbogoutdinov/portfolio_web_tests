@@ -32,7 +32,7 @@ public class SearchTests extends TestBase{
             searchPO.searchRepo(repo);
         });
 
-        step("Проверяем на корректне открытие страницы репозитория", () -> {
+        step("Проверяем на корректное открытие страницы репозитория", () -> {
             searchPO.verifyListOfReposOpens();
         });
     }
