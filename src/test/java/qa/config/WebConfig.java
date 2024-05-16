@@ -8,11 +8,11 @@ public interface WebConfig extends Config {
     String getBrowser();
 
     @Key("browserSize")
-    @DefaultValue("800x600")
+    @DefaultValue("1920x1080")
     String getBrowserSize();
 
     @Key("browserVersion")
-    @DefaultValue("122.0")
+    @DefaultValue("124.0")
     String getBrowserVersion();
 
     @Key("username")

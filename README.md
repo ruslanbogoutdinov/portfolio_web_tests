@@ -34,7 +34,7 @@
 ### Локальный запуск тестов
 
 ```bash
-gradle clean test
+gradle clean test -DisRemote=false
 ```
 
 ### Удаленный запуск тестов
@@ -52,9 +52,9 @@ gradle clean test
 
 <code>browser</code> – браузер, в котором будут выполняться тесты (_по умолчанию - <code>chrome</code>_).
 
-<code>browserVersion</code> – версия браузера (_по умолчанию - <code>100</code>_).
+<code>browserVersion</code> – версия браузера (_по умолчанию - <code>120.0</code>_).
 
-<code>browserSize</code> – размер окна браузера, в котором будут выполняться тесты (_по умолчанию - <code>1920x1080</code>_).
+<code>browserSize</code> – размер окна браузера, в котором будут выполняться тесты (_по умолчанию - <code>900x600</code>_).
 
 <code>remoteURL</code> - адрес удаленного сервера, где будут запускаться тесты.
 
