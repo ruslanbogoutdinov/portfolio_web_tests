@@ -98,7 +98,7 @@ gradle clean test
 #### Тесты
 
 <p align="center">
-  <img title="Allure Report tests" src="src/test/resources/media/screenshots/AllureTestss.png" alt="Allure Report tests">
+  <img title="Allure Report tests" src="src/test/resources/media/screenshots/AllureTests.png" alt="Allure Report tests">
 </p>
 
 #### Графики
@@ -123,7 +123,7 @@ gradle clean test
 #### Тест-кейсы
 
 <p align="center">
-  <img title="Allure TestOps tests" src="src/test/resources/media/screenshots/AllureTestOpsTests.png" alt="Allure TestOps tests">
+  <img title="Allure TestOps tests" src="src/test/resources/media/screenshots/AllureTestOpsTestss.png" alt="Allure TestOps tests">
 </p>
 
 #### Дашборды
