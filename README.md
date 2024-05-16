@@ -123,7 +123,7 @@ gradle clean test
 #### Тест-кейсы
 
 <p align="center">
-  <img title="Allure TestOps tests" src="src/test/resources/media/screenshots/AllureTestOpsTests.pnsg" alt="Allure TestOps tests">
+  <img title="Allure TestOps tests" src="src/test/resources/media/screenshots/AllureTestOpsTests.png" alt="Allure TestOps tests">
 </p>
 
 #### Дашборды
