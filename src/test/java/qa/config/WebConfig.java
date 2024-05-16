@@ -24,6 +24,7 @@ public interface WebConfig extends Config {
     String getPassword();
 
     @Key("isRemote")
+    @DefaultValue("false")
     boolean isRemote();
 
     @Key("remoteUrl")

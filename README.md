@@ -34,7 +34,7 @@
 ### Локальный запуск тестов
 
 ```bash
-gradle clean test -DisRemote=false
+gradle clean test
 ```
 
 ### Удаленный запуск тестов
