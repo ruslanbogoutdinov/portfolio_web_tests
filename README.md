@@ -18,8 +18,6 @@
 
 * <a href="#telegram">Telegram уведомление</a>
 
-* <a href="#video">Видео пример прогона автотеста</a>
-
 <a id="cases"></a>
 ## Реализованные проверки
 
@@ -139,17 +137,4 @@ gradle clean test
 
 <p>
   <img title="Telegram notification" src="src/test/resources/media/screenshots/Telegram.png" alt="Telegram notification" width="500">
-</p>
-
-<a id="video"></a>
-## Пример запуска теста
-
-К каждому тесту в отчете прилагается видео.
-
-На данном видео выполняется:
-
-- Проверка функции добавления товара в Избранные
-
-<p align="center">
-  <img title="Selenoid Video" src="media/gif/test.gif">
 </p>
